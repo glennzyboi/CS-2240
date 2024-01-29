@@ -47,14 +47,26 @@ body {
     justify-content: space-between;
     margin-right: 50px;
 }
-.frame img {
+.frame img  {
     width: 100%;
     height: auto;
     border-radius: 50%;
 }
+.frame a :hover {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    opacity: 80%;
+}
+.frame a :active {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    opacity: 10%;
+}
 .description {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: center;
     max-width: 500px;
     text-align: justify;
