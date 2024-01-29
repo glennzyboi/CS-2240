@@ -39,6 +39,7 @@
       flex-direction: column;
       align-items: center;
       margin-top: 50px;
+      width: 98%;
     }
 
     table {
@@ -51,23 +52,29 @@
     th, td {
       text-align: left;
       padding: 8px;
-      border-bottom: 1px solid #ddd;
-      
+      border-bottom: 1px solid #ddd;      
     }
 
     th {
       background-color: #0078d4;
       color: #fff;
+      text-align: center;
+      text-emphasis: bold;
     }
 
-    img {
+    td img {
       max-width: 100%;
-      height: 75px;
-      margin-bottom: 10px;
+      height:100px;
+      margin:auto ;
     }
-
-    video {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 10px;
+    .year{
+      font-weight: bold;
+      text-align: center;
+    }
+    .image{
+      text-align: center;
+    }
+    .description {
+      max-width: 500px;
+      text-align: left;
     }
